@@ -1,0 +1,21 @@
+#include <stdio.h>
+/*
+    user enter two integer, int1, int2
+    add int1 and int2 as sum
+    print sum
+*/
+
+int main(void){
+    int inum1;
+    int inum2;
+    int sum;
+
+    printf("Enter first number:\n");
+    scanf("%d",&inum1);
+
+    printf("Enter second number:\n");
+    scanf("%d",&inum2);
+
+    sum = inum1+inum2;
+    printf("%d",sum);
+}
