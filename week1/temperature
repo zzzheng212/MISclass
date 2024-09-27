@@ -6,10 +6,9 @@
 int main(void){
     float icel;
     float ifaren;
-    float ctof = 9*5
     printf("Enter a temperature:");
     scanf("%f",&icel);
     printf("The temperature is: %.1f\n",icel);
-    ifaren = icel*ctof+32;
+    ifaren = ((float)icel*9)/5+32;
     printf("Fahrenfeit temperature is %.1f\n",ifaren);
 }
