@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-//
+//class average grades calculator
 
 int main(void){
 
@@ -11,8 +11,8 @@ int main(void){
     printf("Please input the grades:\n");
 
     while(gcounter < 10){
-        scanf("%d\n",&grade);
-        total += grade;
+        scanf("%d\n",&grade);//Input grades
+        total += grade;//calculate sum
         gcounter++;
     }
     avg = (float)total/10;
