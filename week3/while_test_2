@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+//
+
+int main(void){
+
+    int total = 0;
+    int gcounter = 1;
+    int grade;
+    float avg;
+    printf("Please input the grades:\n");
+
+    while(gcounter < 10){
+        scanf("%d\n",&grade);
+        total += grade;
+        gcounter++;
+    }
+    avg = (float)total/10;
+    printf("Class average grade is %.1f",avg);
+}
